@@ -53,13 +53,35 @@ a {
 
 .mc_embed_signup {
     color: #E71D59;
+    background-color: rgba(255,255,255,0.5);
     height: 50px;
     padding: 3px 3px 3px 3px;
     margin: 3px;
  }
+
+::-webkit-input-placeholder {
+ color: #f21e40;
+ padding-left: 4px;
+}
+ 
+:-moz-placeholder { /* Firefox old */
+ color: #f21e40;
+ padding-left: 4px;
+}
+ 
+::-moz-placeholder { /* Firefox new */
+ color: #f21e40;
+ padding-left: 4px;
+}
+ 
+:-ms-input-placeholder {
+ color: #f21e40;
+ padding-left: 4px;
+}
+
 .mc-field-group input[type="email"] {
     display: inline-block;
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.5); 
     color: #f21e40;
     border: 1px solid #f21e40;
     text-transform: uppercase;
