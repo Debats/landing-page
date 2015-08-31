@@ -89,9 +89,9 @@ a {
     letter-spacing: 1px;
     border-radius: 0px;
     height: 50px;
-    width: 304px;
+    width: 260px;
     padding: 3px 3px 3px 15px;
-    margin: 10px;
+    margin: auto auto 10px auto;
  }
 
 a:hover,
@@ -191,12 +191,13 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background:  url(../img/gradient-top.png) no-repeat bottom center scroll, url(../img/intro-bg.jpg) no-repeat center center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-position: bottom center, auto;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    background-size: auto, cover;
+    -o-background-size: auto, cover;
 }
 
 .intro .intro-body {
@@ -305,11 +306,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.inscription-section {
     width: 100%;
     padding: 50px 0;
     color: #f21e40;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/inscription-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -328,7 +329,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .inscription-section {
         padding: 100px 0;
     }
 
