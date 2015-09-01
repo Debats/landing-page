@@ -316,6 +316,8 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFFFFF;
 }
 
 #map {
